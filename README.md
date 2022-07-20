@@ -51,5 +51,5 @@ Deve ter um rodapé com as informações da pessoa que desenvolveu o portfólio<
 
 <div align="center">
   <h2>Badge recebido devido a finalização do projeto</h2>
-  <img alt="badge" width="200px" src=""/>
+  <img alt="badge" width="200px" src="/img/badge.png"/>
 </div>
