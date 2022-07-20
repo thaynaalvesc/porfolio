@@ -1,0 +1,29 @@
+.rodape{
+   font-size: 1.2rem;
+   text-align: center;
+   color: white;
+   background-color: black;
+   box-sizing: border-box;
+   height: 100px;
+}
+
+.rodape__descricao{
+   margin-top: 3rem;
+   margin-bottom: 1rem;
+   box-sizing: border-box;
+   padding: 2rem;
+}
+
+@media screen and (max-width: 375px){
+   .rodape{
+      font-size: 1rem;
+      height: 116px;
+      display: flex;
+      align-items: center;
+   }
+
+   .rodape__descricao{
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+   }
+}

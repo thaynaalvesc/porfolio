@@ -1,0 +1,70 @@
+.contato__container h3{
+   font-size: 1.5rem;
+   font-weight: bold;
+   margin-bottom: 0.4rem;
+   margin-top: 3rem;
+   text-align: center;
+   text-transform: uppercase;
+}
+
+.contato__container h2{
+   font-size: 1.2rem;
+   text-align: center;
+   margin-bottom: 3rem;
+}
+
+.contato__form{
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+}
+
+.formulario{
+   font-size: 1.3rem;
+   display: flex;
+   flex-direction: column;
+   width: 50%;
+   margin-right: 0;
+}
+
+.campo-form{
+   width: 70%;
+   font-size: 1.3rem;
+   margin-bottom: 0.8rem;
+}
+
+.button-form{
+   width: 30%;
+   margin-left: 41%;
+}
+
+.formulario label{
+   margin-bottom: 0.4rem;
+}
+
+.error{
+   margin-bottom: 1rem;
+   color: red;
+   font-size: 1.2rem;
+   font-style: italic;
+   display: none;
+}
+
+@media screen and (max-width: 375px){
+   .contato__form img{
+      display: none;
+   }
+
+   .formulario{
+      width: 90%;
+   }
+
+   .campo-form{
+      width: 90%;
+   }
+   
+   .button-form{
+      width: 50%;
+      margin-left: 20%;
+   }
+}

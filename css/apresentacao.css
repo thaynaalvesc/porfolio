@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+
+.apresentacao{
+   background-color: gray;
+   height: calc(100vh - 135px);
+   width: 100vw;
+}
+
+.aprentacao__descricao{
+   align-items: center;
+   background-color: gray;
+   display: flex;
+   justify-content: space-around;
+}
+
+.titulo-grande{
+   font-size: 8rem;
+   font-family: 'Fredericka the Great', cursive;
+   text-align: left;
+   margin-bottom: 2rem;
+   margin-left: 1rem;
+   padding: 1.5rem;
+}
+
+.underline{
+   transform: translate(-50%, -50%);
+   animation: animate 0.8s linear infinite;
+}
+
+.apresentacao__img{
+   border-radius: 50%;
+   margin: 3rem;
+   width: 300px;
+   margin-right: 10rem;
+}
+
+.apresentacao__redes-sociais{
+   align-items: flex-end;
+   background-color: grey;
+   display: flex;
+   font-size: 1.3rem;
+   height: 120px;
+   justify-content: space-evenly;
+}
+
+.redes-sociais-link{
+   margin: 1rem;
+}
+
+.redes-sociais-link a{
+   color: lightgray;
+   text-decoration: none;
+}
+
+.redes-sociais-link a:hover{
+   color: gold;
+   text-decoration: underline;
+}
+
+.container__redes-sociais{
+   align-items: center;
+   display: flex;
+}
+
+@keyframes animate {
+   0% {
+       opacity: 0;
+   }
+
+   50% {
+       opacity: 0.9;
+   }
+
+   100% {
+       opacity: 0;
+   }
+}
+
+@media screen and (max-width: 768px){
+   .titulo-grande{
+      font-size: 5rem;
+   }
+
+   .apresentacao__img{
+      width: 200px;
+      margin-right: 2rem;
+   }
+
+   .apresentacao__redes-sociais{
+      font-size: 1rem;
+   }
+}
+
+@media screen and (max-width: 375px){
+   .apresentacao{
+      height: calc(100vh - 170px);
+   }
+
+   .aprentacao__descricao{
+      flex-direction: column-reverse;
+      height: 288px;
+   }
+
+   .titulo-grande{
+      font-size: 2.5rem;
+      text-align: center;
+      margin: 0;
+   }
+
+   .apresentacao__img{
+      margin-top: 1rem;
+      margin-bottom: 0;
+      width: 120px;
+   }
+
+   .container__redes-sociais{
+      font-size: 1rem;
+
+   }
+
+   .apresentacao__redes-sociais{
+      align-items: center;
+      height: 0;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-top: 0;
+   }
+}

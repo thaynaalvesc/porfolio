@@ -1,0 +1,46 @@
+.sobre__titulo{
+   font-size: 1.5rem;
+   font-weight: bold;
+   margin-top: 2.5rem;
+   text-transform: uppercase;
+   text-align: center;
+}
+
+.sobre__container{
+   align-items: center;
+   background-color: white;
+   display: flex;
+}
+
+.sobre__descricao{
+   color: black;
+   font-size: 1.3rem;
+}
+
+.sobre__descricao p{
+   line-height: 1.9rem;
+   padding: 1.5rem;
+   margin-right: 2rem;
+   text-align: justify;
+}
+
+.sobre__img{
+   margin: 1rem;
+   width: 300px;
+}
+
+@media screen and (max-width: 768px){
+   .sobre__img{
+      display: none;
+   }
+}
+
+@media screen and (max-width: 375px){
+   .sobre__img{
+      display: none;
+   }
+
+   .sobre__descricao p{
+      margin-right: 0;
+   }
+}
